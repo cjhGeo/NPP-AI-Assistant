@@ -1,0 +1,19 @@
+# core
+streamlit==1.39.0
+pandas==2.2.2
+numpy==2.1.3
+
+# ML / utils
+scikit-learn==1.5.2
+tqdm==4.66.5
+
+# NLP
+spacy==3.7.4
+# pin a spaCy model (choose one you actually use)
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# STT / audio
+vosk==0.3.45
+sounddevice==0.4.7
+soundfile==0.12.1
+ffmpeg-python==0.2.0
